@@ -107,4 +107,11 @@ nav {
     nav .usa a:nth-child(1) {
       text-decoration: underline; }
 
+.banner {
+  margin-left: 200px;
+  margin-top: 25px; }
+  .banner img {
+    width: 80%;
+    height: 40%; }
+
 /*# sourceMappingURL=output.css.map */
