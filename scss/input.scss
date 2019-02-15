@@ -45,4 +45,41 @@ body {
     margin-left: 20px;
     letter-spacing: .5px;
   }
-} //end of header
+} //end of top-header
+
+header {
+  height: 80px;
+  background-color: $blue;
+  @include flex-row;
+
+}
+
+
+
+.frist-line {
+  @include flex-row;
+  justify-content: flex-end;
+
+  img {
+    height: 70px;
+    // width: 150px;
+    margin-left: 20px;
+  }
+
+}
+.make-it {
+  color: black;
+
+}
+
+
+
+.first-line {
+  align-items: flex-end;
+}
+
+
+
+
+
+// end of header

@@ -27,4 +27,26 @@ body {
     margin-left: 20px;
     letter-spacing: .5px; }
 
+header {
+  height: 80px;
+  background-color: #005594;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.frist-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end; }
+  .frist-line img {
+    height: 70px;
+    margin-left: 20px; }
+
+.make-it {
+  color: black; }
+
+.first-line {
+  align-items: flex-end; }
+
 /*# sourceMappingURL=output.css.map */
