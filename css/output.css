@@ -52,11 +52,15 @@ header {
     .right-header .sign-in a {
       margin-right: 5px;
       font-size: 12px; }
+      .right-header .sign-in a:hover {
+        color: #d1bb7e; }
   .right-header .make-it {
     text-align: right;
     margin-left: 20px;
     font-size: 12px;
     margin-right: 12px; }
+    .right-header .make-it a:hover {
+      color: #d1bb7e; }
   .right-header .vl {
     border-left: 1px solid white;
     height: 14px;
@@ -74,17 +78,28 @@ header {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: .5px; }
+    .right-header button:hover {
+      color: #d1bb7e; }
   .right-header .lnr {
     margin-left: 10px; }
 
 nav {
+  margin-top: -10px;
+  padding: none;
   background-color: #005594;
   display: flex;
   flex-direction: row;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  padding: 10px; }
   nav a {
     color: white;
     text-decoration: none;
     text-transform: uppercase; }
+  nav img {
+    height: 23px; }
+  nav a {
+    margin-left: 25px; }
+    nav a:hover {
+      color: #d1bb7e; }
 
 /*# sourceMappingURL=output.css.map */

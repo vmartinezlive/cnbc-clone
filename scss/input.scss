@@ -1,6 +1,7 @@
 //variable
 $blue: #005594;
 $gblue: #326aa0;
+$gold: #d1bb7e;
 $roboto: 'Roboto', sans-serif;
 $anton: 'Anton', sans-serif;
 
@@ -24,6 +25,13 @@ $anton: 'Anton', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
   }
+}
+
+@mixin hover {
+  &:hover {
+      color: $gold;
+    }
+
 }
 
 html {
@@ -92,6 +100,7 @@ header {
     a {
       margin-right: 5px;
       font-size: 12px;
+      @include hover;
     }
 
   }
@@ -101,6 +110,10 @@ header {
     margin-left: 20px;
     font-size: 12px;
     margin-right: 12px;
+
+    a {
+      @include hover;
+    }
   }
 
   .vl {
@@ -125,17 +138,27 @@ header {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: .5px;
+    @include hover;
   }
 
   .lnr {
     margin-left: 10px;
-
   }
 }
 
 nav {
+  margin-top: -10px;
+  padding: none;
   background-color: $blue;
   @include flex-rowOne;
   @include alinks;
+  padding: 10px;
 
+  img {
+    height: 23px;}
+  a {
+    margin-left: 25px;
+    @include hover;
+
+  }
 }
