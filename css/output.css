@@ -101,5 +101,10 @@ nav {
     margin-left: 25px; }
     nav a:hover {
       color: #d1bb7e; }
+  nav .usa {
+    font-size: 13px;
+    margin-left: 305px; }
+    nav .usa a:nth-child(1) {
+      text-decoration: underline; }
 
 /*# sourceMappingURL=output.css.map */

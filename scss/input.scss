@@ -159,6 +159,12 @@ nav {
   a {
     margin-left: 25px;
     @include hover;
-
   }
-}
+  .usa {
+    font-size: 13px;
+    margin-left: 305px;
+      a:nth-child(1) {
+        text-decoration: underline;
+        }
+    }
+  }
