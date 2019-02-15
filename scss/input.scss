@@ -20,6 +20,7 @@ $anton: 'Anton', sans-serif;
   a {
     color: white;
     text-decoration: none;
+    text-transform: uppercase;
   }
 }
 
@@ -74,21 +75,28 @@ header {
 .right-header {
   @include flex-rowOne;
   justify-content: flex-end;
-  margin-top: -10px;
   margin-right: 50px;
+  align-content: center;
 
   .sign-in {
     text-align: right;
 
     a {
       margin-right: 5px;
+      font-size: 12px;
+
     }
-
-
   }
   .make-it {
+    // margin-top: 5px;
     text-align: right;
     margin-left: 20px;
+    font-size: 12px;
+  }
+
+  img {
+    margin-left: 5px;
+    margin-bottom: -5px;
   }
 
 }

@@ -37,21 +37,27 @@ header {
   font-family: "Roboto", sans-serif; }
   header a {
     color: white;
-    text-decoration: none; }
+    text-decoration: none;
+    text-transform: uppercase; }
 
 .right-header {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin-top: -10px;
-  margin-right: 50px; }
+  margin-right: 50px;
+  align-content: center; }
   .right-header .sign-in {
     text-align: right; }
     .right-header .sign-in a {
-      margin-right: 5px; }
+      margin-right: 5px;
+      font-size: 12px; }
   .right-header .make-it {
     text-align: right;
-    margin-left: 20px; }
+    margin-left: 20px;
+    font-size: 12px; }
+  .right-header img {
+    margin-left: 5px;
+    margin-bottom: -5px; }
 
 nav {
   background-color: #005594;
@@ -60,6 +66,7 @@ nav {
   font-family: "Roboto", sans-serif; }
   nav a {
     color: white;
-    text-decoration: none; }
+    text-decoration: none;
+    text-transform: uppercase; }
 
 /*# sourceMappingURL=output.css.map */
