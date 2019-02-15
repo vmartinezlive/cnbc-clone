@@ -63,10 +63,15 @@ body {
 
 img {
   height: 20px;
-  margin-left: 25px;
+  margin-left: 15px;
+
+
+
 }
 header {
-  height: 80px;
+  // margin-top: 10px;
+  padding-top: 10px;
+  height: 40px;
   background-color: $blue;
   @include alinks;
 
@@ -75,8 +80,9 @@ header {
 .right-header {
   @include flex-rowOne;
   justify-content: flex-end;
-  margin-right: 50px;
-  align-content: center;
+  margin-left: 50px;
+  // align-content: center;
+  margin-top: -25px;
 
   .sign-in {
     text-align: right;
@@ -92,6 +98,7 @@ header {
     text-align: right;
     margin-left: 20px;
     font-size: 12px;
+    margin-right: 15px;
   }
 
   img {
