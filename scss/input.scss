@@ -1,0 +1,33 @@
+//variable
+$blue: #005594;
+$roboto: 'Roboto', sans-serif;
+$anton: 'Anton', sans-serif;
+
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header {
+  background-color: $blue;
+  @include: flex-row;
+  @include: $anton;
+  height: 50px;
+  color: white;
+}
+
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  p {
+    margin: 0;
+  }
+  h2 {
+    margin: 0;
+  }
+}
