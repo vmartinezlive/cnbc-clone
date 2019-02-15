@@ -27,26 +27,39 @@ body {
     margin-left: 20px;
     letter-spacing: .5px; }
 
+img {
+  height: 20px;
+  margin-left: 25px; }
+
 header {
   height: 80px;
   background-color: #005594;
-  display: flex;
-  flex-direction: row;
-  align-items: center; }
+  font-family: "Roboto", sans-serif; }
+  header a {
+    color: white;
+    text-decoration: none; }
 
-.frist-line {
+.right-header {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: flex-end; }
-  .frist-line img {
-    height: 70px;
+  justify-content: flex-end;
+  margin-top: -10px;
+  margin-right: 50px; }
+  .right-header .sign-in {
+    text-align: right; }
+    .right-header .sign-in a {
+      margin-right: 5px; }
+  .right-header .make-it {
+    text-align: right;
     margin-left: 20px; }
 
-.make-it {
-  color: black; }
-
-.first-line {
-  align-items: flex-end; }
+nav {
+  background-color: #005594;
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto", sans-serif; }
+  nav a {
+    color: white;
+    text-decoration: none; }
 
 /*# sourceMappingURL=output.css.map */

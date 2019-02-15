@@ -10,6 +10,19 @@ $anton: 'Anton', sans-serif;
 
 }
 
+@mixin flex-rowOne {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin alinks {
+  font-family: $roboto;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
 html {
   box-sizing: border-box;
 }
@@ -47,39 +60,42 @@ body {
   }
 } //end of top-header
 
+img {
+  height: 20px;
+  margin-left: 25px;
+}
 header {
   height: 80px;
   background-color: $blue;
-  @include flex-row;
+  @include alinks;
 
 }
 
-
-
-.frist-line {
-  @include flex-row;
+.right-header {
+  @include flex-rowOne;
   justify-content: flex-end;
+  margin-top: -10px;
+  margin-right: 50px;
 
-  img {
-    height: 70px;
-    // width: 150px;
+  .sign-in {
+    text-align: right;
+
+    a {
+      margin-right: 5px;
+    }
+
+
+  }
+  .make-it {
+    text-align: right;
     margin-left: 20px;
   }
 
 }
-.make-it {
-  color: black;
+
+nav {
+  background-color: $blue;
+  @include flex-rowOne;
+  @include alinks;
 
 }
-
-
-
-.first-line {
-  align-items: flex-end;
-}
-
-
-
-
-
-// end of header
