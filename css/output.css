@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box; }
+
+body {
+  margin: 0; }
+  body p {
+    margin: 0; }
+  body h2 {
+    margin: 0; }
+
+.top-header {
+  background-color: red;
+  font-family: "Roboto", sans-serif;
+  height: 50px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start; }
+  .top-header h3 {
+    text-transform: uppercase;
+    margin-left: 25px;
+    font-family: "Anton", sans-serif;
+    letter-spacing: .7px;
+    font-weight: lighter; }
+  .top-header p {
+    margin-left: 20px;
+    letter-spacing: .5px; }
+
+/*# sourceMappingURL=output.css.map */

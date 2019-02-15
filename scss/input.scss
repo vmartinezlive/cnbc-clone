@@ -7,16 +7,8 @@ $anton: 'Anton', sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
-}
 
-header {
-  background-color: $blue;
-  @include: flex-row;
-  @include: $anton;
-  height: 50px;
-  color: white;
 }
-
 
 html {
   box-sizing: border-box;
@@ -31,3 +23,26 @@ body {
     margin: 0;
   }
 }
+
+.top-header {
+  background-color: red;
+  font-family: $roboto;
+  height: 50px;
+  color: white;
+  @include flex-row;
+  justify-content: flex-start;
+
+
+  h3 {
+    text-transform: uppercase;
+    margin-left: 25px;
+    font-family: $anton;
+    letter-spacing: .7px;
+    font-weight: lighter;
+  }
+
+  p {
+    margin-left: 20px;
+    letter-spacing: .5px;
+  }
+} //end of header
