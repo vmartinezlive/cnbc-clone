@@ -87,8 +87,6 @@ nav {
   margin-top: -10px;
   padding: none;
   background-color: #005594;
-  display: flex;
-  flex-direction: row;
   font-family: "Roboto", sans-serif;
   padding: 10px; }
   nav a {
@@ -103,15 +101,38 @@ nav {
       color: #d1bb7e; }
   nav .usa {
     font-size: 13px;
-    margin-left: 305px; }
+    float: right;
+    margin-right: 150px;
+    margin-top: -40px; }
     nav .usa a:nth-child(1) {
       text-decoration: underline; }
 
 .banner {
-  margin-left: 200px;
+  margin-left: 300px;
   margin-top: 25px; }
   .banner img {
-    width: 80%;
-    height: 40%; }
+    width: 60%;
+    height: 20%; }
+
+section {
+  width: 80%; }
+  section img {
+    border-color: black;
+    width: 101.7%;
+    height: 20%;
+    margin-top: 25px;
+    margin-left: 175px; }
+  section nav {
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    margin-left: 175px; }
+    section nav a {
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase; }
+    section nav a {
+      margin-right: 25px;
+      margin-left: 25px; }
 
 /*# sourceMappingURL=output.css.map */

@@ -150,7 +150,7 @@ nav {
   margin-top: -10px;
   padding: none;
   background-color: $blue;
-  @include flex-rowOne;
+  // @include flex-rowOne;
   @include alinks;
   padding: 10px;
 
@@ -162,7 +162,9 @@ nav {
   }
   .usa {
     font-size: 13px;
-    margin-left: 305px;
+    float:right;
+    margin-right: 150px;
+    margin-top: -40px;
       a:nth-child(1) {
         text-decoration: underline;
         }
@@ -170,10 +172,37 @@ nav {
   }//end of nav
 
 .banner {
-  margin-left: 200px;
+  margin-left: 300px;
   margin-top: 25px;
   img {
-    width: 80%;
-    height: 40%;
+    width: 60%;
+    height: 20%;
   }
+}
+
+section {
+  width: 80%;
+  img {
+    border-color: black;
+    width: 101.7%;
+    height: 20%;
+    margin-top: 25px;
+    margin-left: 175px;
+
+  }
+nav {
+  background-color: black;
+  @include alinks;
+  width: 100%;
+  margin-left: 175px;
+
+  a {
+    margin-right: 25px;
+    margin-left: 25px;
+  // @include flex-rowOne;
+  // justify-content: space-around;
+  // height: 50px;
+  }
+}
+
 }
