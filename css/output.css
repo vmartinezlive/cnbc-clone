@@ -108,24 +108,24 @@ nav {
       text-decoration: underline; }
 
 .banner {
-  margin-left: 300px;
+  margin-left: 600px;
   margin-top: 25px; }
   .banner img {
-    width: 60%;
-    height: 20%; }
+    width: 730px;
+    height: 90px; }
 
 section {
-  width: 80%; }
+  margin-top: 25px; }
   section img {
-    border-color: black;
-    width: 101.7%;
-    height: 20%;
+    width: 1140px;
+    height: 80px;
     margin-top: 25px;
     margin-left: 175px; }
   section nav {
     background-color: black;
     font-family: "Roboto", sans-serif;
-    width: 100%;
+    width: 1118px;
+    height: 36px;
     margin-left: 175px; }
     section nav a {
       color: white;
@@ -134,5 +134,20 @@ section {
     section nav a {
       margin-right: 25px;
       margin-left: 25px; }
+
+.row2 {
+  width: 1140px;
+  height: 430px;
+  border-left: 2px solid gray;
+  display: flex;
+  flex-direction: row; }
+  .row2 .marcusPhoto img {
+    width: 720px;
+    height: 405px; }
+  .row2 .ink-banner img {
+    width: 300px;
+    height: 250px;
+    margin-top: 100px;
+    margin-left: 75px; }
 
 /*# sourceMappingURL=output.css.map */
