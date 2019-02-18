@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px) {
+  .top-header {
+    h3 { display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 479px) {
+  .top-hader {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .right-header {
+    #usa { display: none;
+    }
+  button {
+    display: none;
+    }
+  .vl {
+    display: none;
+    }
+  .make-usa {
+    display: none;
+    }
+  }
+}

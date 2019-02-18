@@ -65,9 +65,12 @@
   justify-content: flex-start;
   text-align: left;
   background-color: transparentize(black, 0.3);
+  background-position: bottom;
+  margin: 0;
   height: 25%;
   position: relative;
-  margin-right:210px;
+  float: left;
+  // margin-right:556px;
   left: 210px;
   bottom: 83px;
   color: #bbb;

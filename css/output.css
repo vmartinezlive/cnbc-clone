@@ -1,3 +1,27 @@
+@media screen and (max-width: 768px) {
+  .top-header h3 {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) and (min-width: 479px) {
+  .top-hader {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .right-header #usa {
+    display: none;
+  }
+  .right-header button {
+    display: none;
+  }
+  .right-header .vl {
+    display: none;
+  }
+  .right-header .make-usa {
+    display: none;
+  }
+}
 html {
   box-sizing: border-box;
 }
@@ -222,10 +246,18 @@ section nav a {
   width: 1077px;
   height: 320px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: inline-block;
 }
-.row3 img {
+.row3 .photo1 img {
+  width: 523px;
+  height: 319px;
+  margin-top: 25px;
+  margin-left: 210px;
+}
+.row3 .photo2 {
+  display: block;
+}
+.row3 .photo2 img {
   width: 523px;
   height: 319px;
   margin-top: 25px;
@@ -237,9 +269,11 @@ section nav a {
   justify-content: flex-start;
   text-align: left;
   background-color: rgba(0, 0, 0, 0.7);
+  background-position: bottom;
+  margin: 0;
   height: 25%;
   position: relative;
-  margin-right: 210px;
+  float: left;
   left: 210px;
   bottom: 83px;
   color: #bbb;
@@ -256,6 +290,14 @@ section nav a {
   font-size: 20px;
   margin-top: 13px;
   margin-left: 10px;
+}
+.row3 p {
+  width: 357px;
+}
+.row3 .cf:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .slides-row {
