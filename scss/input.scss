@@ -1,62 +1,10 @@
+@import 'mixins';
 //variable
 $blue: #005594;
 $gblue: #326aa0;
 $gold: #d1bb7e;
 $roboto: 'Roboto', sans-serif;
 $anton: 'Anton', sans-serif;
-
-
-@mixin flex-row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-}
-
-@mixin flex-rowOne {
-  display: flex;
-  flex-direction: row;
-}
-
-@mixin alinks {
-  font-family: $roboto;
-  a {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-}
-
-@mixin hover {
-  &:hover {
-      color: $gold;
-    }
-}
-
-@mixin slide {
-  width: 1100px;
-
-  h2 {
-    text-transform: uppercase;
-    font-family: $roboto;
-    color: gray;
-    margin-top: 25px;
-    margin-left: 200px;
-  }
-
-  .photos {
-    @include flex-rowOne;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 200px;
-  }
-
-  img {
-    width: 240px;
-    height: 135px;
-    margin-top: 10px;
-  }
-} // end of slide
 
 
 html {
@@ -245,6 +193,40 @@ section {
       margin-top: 20px;
       margin-bottom: 50px;
     }
+  }
+
+  @mixin text-box {
+    @include flex-rowOne;
+    justify-content: flex-start;
+    text-align: left;
+    background-color: transparentize(black, 0.3);
+    height: 25%;
+    position: relative;
+    margin-right: 35px;
+    left: 35px;
+    bottom: 160px;
+    color: #bbb;
+    font-family: $roboto;
+    padding: 0px 60px;
+
+    img {
+      width: 70px;
+      height: 70px;
+      margin-left: -35px;
+    }
+    p {
+      font-size: 25px;
+      margin-top: 20px;
+      margin-left: 10px;
+
+
+
+    }
+
+  }
+
+  .text-box {
+    @include text-box;
   }
 
   .ink-banner {

@@ -1,0 +1,64 @@
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+@mixin flex-rowOne {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin alinks {
+  font-family: $roboto;
+  a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
+
+@mixin hover {
+  &:hover {
+      color: $gold;
+    }
+}
+
+@mixin slide {
+  width: 1100px;
+
+  h2 {
+    text-transform: uppercase;
+    font-family: $roboto;
+    color: gray;
+    margin-top: 25px;
+    margin-left: 200px;
+  }
+
+  .photos {
+    @include flex-rowOne;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 200px;
+  }
+
+  img {
+    width: 240px;
+    height: 135px;
+    margin-top: 10px;
+  }
+} // end of slide
+
+// @mixin text-box {
+//
+//   text-align: center;
+//   background-color: transparentize(black, 0.3);
+//   height: 40%;
+//   position: relative;
+//   bottom: 350px;
+//   color: white;
+//   font-family: $oswald;
+//   padding: 20px 90px;
+//
+// }
