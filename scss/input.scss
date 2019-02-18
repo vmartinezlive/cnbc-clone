@@ -31,8 +31,33 @@ $anton: 'Anton', sans-serif;
   &:hover {
       color: $gold;
     }
-
 }
+
+@mixin slide {
+  width: 1100px;
+
+  h2 {
+    text-transform: uppercase;
+    font-family: $roboto;
+    color: gray;
+    margin-top: 25px;
+    margin-left: 200px;
+  }
+
+  .photos {
+    @include flex-rowOne;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 200px;
+  }
+
+  img {
+    width: 240px;
+    height: 135px;
+    margin-top: 10px;
+  }
+} // end of slide
+
 
 html {
   box-sizing: border-box;
@@ -47,6 +72,7 @@ body {
     margin: 0;
   }
 }
+
 
 .top-header {
   background-color: red;
@@ -207,7 +233,7 @@ section {
 .row2 {
   width: 1140px;
   height: 430px;
-  border-left: 2px solid gray;
+  margin-left: 175px;
   @include flex-rowOne;
 
 
@@ -215,6 +241,9 @@ section {
     img {
       width: 720px;
       height: 405px;
+      margin-left: 35px;
+      margin-top: 20px;
+      margin-bottom: 50px;
     }
   }
 
@@ -223,9 +252,14 @@ section {
       width: 300px;
       height: 250px;
       margin-top: 100px;
-      margin-left: 75px;
+      margin-left: 50px;
     }
   }
+} // end of row2
 
-
+.slides-rowOne {
+  @include slide;
+}
+.slides-rowTwo {
+  @include slide;
 }

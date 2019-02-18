@@ -138,16 +138,57 @@ section {
 .row2 {
   width: 1140px;
   height: 430px;
-  border-left: 2px solid gray;
+  margin-left: 175px;
   display: flex;
   flex-direction: row; }
   .row2 .marcusPhoto img {
     width: 720px;
-    height: 405px; }
+    height: 405px;
+    margin-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 50px; }
   .row2 .ink-banner img {
     width: 300px;
     height: 250px;
     margin-top: 100px;
-    margin-left: 75px; }
+    margin-left: 50px; }
+
+.slides-rowOne {
+  width: 1100px; }
+  .slides-rowOne h2 {
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    color: gray;
+    margin-top: 25px;
+    margin-left: 200px; }
+  .slides-rowOne .photos {
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 200px; }
+  .slides-rowOne img {
+    width: 240px;
+    height: 135px;
+    margin-top: 10px; }
+
+.slides-rowTwo {
+  width: 1100px; }
+  .slides-rowTwo h2 {
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    color: gray;
+    margin-top: 25px;
+    margin-left: 200px; }
+  .slides-rowTwo .photos {
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 200px; }
+  .slides-rowTwo img {
+    width: 240px;
+    height: 135px;
+    margin-top: 10px; }
 
 /*# sourceMappingURL=output.css.map */
