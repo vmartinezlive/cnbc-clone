@@ -50,15 +50,28 @@
   }
 } // end of slide
 
-// @mixin text-box {
-//
-//   text-align: center;
-//   background-color: transparentize(black, 0.3);
-//   height: 40%;
-//   position: relative;
-//   bottom: 350px;
-//   color: white;
-//   font-family: $oswald;
-//   padding: 20px 90px;
-//
-// }
+@mixin text-box {
+  @include flex-rowOne;
+  justify-content: flex-start;
+  text-align: left;
+  background-color: transparentize(black, 0.3);
+  height: 25%;
+  position: relative;
+  margin-right: 70px;
+  left: 35px;
+  bottom: 160px;
+  color: #bbb;
+  font-family: $roboto;
+  padding: 0px 60px;
+
+  img {
+    width: 70px;
+    height: 70px;
+    margin-left: -35px;
+  }
+  p {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+}// end pf text-box
