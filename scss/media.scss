@@ -5,12 +5,6 @@
   }
 }
 
-@media screen and (max-width: 480px) and (min-width: 479px) {
-  .top-hader {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .right-header {
     #usa { display: none;
@@ -25,4 +19,36 @@
     display: none;
     }
   }
+
+  nav {
+    .menu {
+      float: left;
+      display:inline-grid;
+    }
+  }
 }
+
+@media screen and (max-width: 768px) {
+  .banner {
+     display: none;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+  .ink-banner {
+     display: none;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .row2 {
+       float: left;
+       width: 50%;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      section {
+         display: none;
+        }
+      }
