@@ -129,7 +129,6 @@ nav a:hover {
 }
 
 #usa {
-  color: red;
   margin-top: 15px;
   font-size: 10px;
 }
@@ -160,6 +159,7 @@ section nav {
   font-family: "Roboto", sans-serif;
   width: 1118px;
   height: 36px;
+  margin-left: 175px;
 }
 section nav a {
   color: white;

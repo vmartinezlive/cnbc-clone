@@ -30,7 +30,6 @@ body {
   @include flex-row;
   justify-content: flex-start;
 
-
   h3 {
     text-transform: uppercase;
     margin-left: 25px;
@@ -48,10 +47,8 @@ body {
 img {
   height: 20px;
   margin-left: 15px;
-
-
-
 }
+
 header {
   // margin-top: 10px;
   padding-top: 10px;
@@ -117,7 +114,7 @@ header {
   .lnr {
     margin-left: 10px;
   }
-}
+}//end of header
 
 nav {
   margin-top: -10px;
@@ -136,13 +133,12 @@ nav {
   }//end of nav
 
   #usa {
-    
       margin-top: 15px;
       font-size: 10px;
-    a:nth-child(1) {
+      a:nth-child(1) {
       text-decoration: underline;
     }
-  }
+  } // end of usa a tag
 
   .banner {
     margin-left: 400px;
@@ -152,7 +148,7 @@ nav {
       height: 90px;
 
     }
-  }
+  }// end of banner
 
   section {
     margin-top: 25px;
@@ -168,7 +164,7 @@ nav {
       @include alinks;
       width: 1118px;
       height: 36px;
-      // margin-left: 175px;
+      margin-left: 175px;
 
       a {
         margin-right: 25px;
