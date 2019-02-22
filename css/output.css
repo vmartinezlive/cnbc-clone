@@ -129,10 +129,7 @@ section {
     margin-top: 25px; }
   section nav {
     background-color: black;
-    font-family: "Roboto", sans-serif;
-    width: 1118px;
-    height: 36px;
-    margin-left: 175px; }
+    font-family: "Roboto", sans-serif; }
     section nav a {
       color: white;
       text-decoration: none;
@@ -145,45 +142,44 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
-
-.row2 {
-  width: 1140px;
-  height: 430px;
-  display: flex;
-  flex-direction: row; }
-  .row2 .marcusPhoto img {
-    width: 720px;
-    height: 405px;
-    margin-left: 35px;
-    margin-top: 20px;
-    margin-bottom: 50px; }
-  .row2 .text-box {
+  .profit-row .row2 {
+    width: 1140px;
+    height: 430px;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    text-align: left;
-    background-color: rgba(0, 0, 0, 0.7);
-    height: 25%;
-    position: relative;
-    margin-right: 70px;
-    left: 35px;
-    bottom: 160px;
-    color: #bbb;
-    font-family: "Roboto", sans-serif;
-    padding: 0px 60px; }
-    .row2 .text-box img {
-      width: 70px;
-      height: 70px;
-      margin-left: -35px; }
-    .row2 .text-box p {
-      font-size: 25px;
+    flex-direction: row; }
+    .profit-row .row2 .marcusPhoto img {
+      width: 720px;
+      height: 405px;
+      margin-left: 35px;
       margin-top: 20px;
-      margin-left: 10px; }
-  .row2 .ink-banner img {
-    width: 300px;
-    height: 250px;
-    margin-top: 100px;
-    margin-left: 50px; }
+      margin-bottom: 50px; }
+    .profit-row .row2 .text-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      text-align: left;
+      background-color: rgba(0, 0, 0, 0.7);
+      height: 25%;
+      position: relative;
+      margin-right: 70px;
+      left: 35px;
+      bottom: 160px;
+      color: #bbb;
+      font-family: "Roboto", sans-serif;
+      padding: 0px 60px; }
+      .profit-row .row2 .text-box img {
+        width: 70px;
+        height: 70px;
+        margin-left: -35px; }
+      .profit-row .row2 .text-box p {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-left: 10px; }
+    .profit-row .row2 .ink-banner img {
+      width: 300px;
+      height: 250px;
+      margin-top: 100px;
+      margin-left: 50px; }
 
 .row3 {
   margin-top: 25px;
@@ -194,15 +190,13 @@ section {
   .row3 .photo1 img {
     width: 523px;
     height: 319px;
-    margin-top: 25px;
-    margin-left: 210px; }
+    margin-top: 25px; }
   .row3 .photo2 {
     display: block; }
     .row3 .photo2 img {
       width: 523px;
       height: 319px;
-      margin-top: 25px;
-      margin-left: 210px; }
+      margin-top: 25px; }
   .row3 .box-text {
     display: flex;
     flex-direction: row;

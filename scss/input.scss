@@ -164,13 +164,14 @@ nav {
       height: 80px;
       margin-top: 25px;
 
+
     }
     nav {
       background-color: black;
       @include alinks;
-      width: 1118px;
-      height: 36px;
-      margin-left: 175px;
+      // width: 1110px;
+      // height: 36px;
+      // margin-left: 175px; *********
 
       a {
         margin-right: 25px;
@@ -183,20 +184,6 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
   .row2 {
     width: 1140px;
     height: 430px;
@@ -227,6 +214,13 @@ nav {
       }
     }
   } // end of row2
+}
+
+
+
+
+
+
 
   .row3 {
     margin-top: 25px;
