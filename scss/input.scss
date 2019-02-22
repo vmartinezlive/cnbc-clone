@@ -7,7 +7,9 @@ $gold: #d1bb7e;
 $roboto: 'Roboto', sans-serif;
 $anton: 'Anton', sans-serif;
 
-
+* {
+  border: 1px solid red;
+}
 html {
   box-sizing: border-box;
 }
@@ -22,6 +24,9 @@ body {
   }
 }
 
+.container {
+  margin: 0 auto;
+}
 
 .top-header {
   background-color: red;
@@ -152,13 +157,13 @@ nav {
   }// end of banner
 
   section {
-    margin-top: 25px;
+    margin: 0, auto;
 
     img {
       width: 1140px;
       height: 80px;
       margin-top: 25px;
-      margin-left: 175px;
+
     }
     nav {
       background-color: black;
@@ -174,10 +179,28 @@ nav {
     }
   } //end of section
 
+.profit-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
   .row2 {
     width: 1140px;
     height: 430px;
-    margin-left: 175px;
+    // margin-left: 175px;
     @include flex-rowOne;
 
 
