@@ -25,14 +25,14 @@
     }
 }
 
-@mixin row3Details {
-  img {
-    width: 523px;
-    height: 319px;
-    margin-top: 25px;
-    // margin-left: 210px;
-  }
-}
+// @mixin row3Details {
+//   img {
+//     width: 523px;
+//     height: 319px;
+//     margin-top: 25px;
+//     // margin-left: 210px;
+//   }
+// }
 
 @mixin text-box {
   @include flex-rowOne;

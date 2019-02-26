@@ -96,7 +96,7 @@ header {
     border-left: 1px solid white;
     height: 14px;
     margin-left: 10px;
-    // margin-right: 10px;
+
     margin-top: 4px;
 
   }
@@ -169,9 +169,7 @@ nav {
     nav {
       background-color: black;
       @include alinks;
-      // width: 1110px;
-      // height: 36px;
-      // margin-left: 175px; *********
+
 
       a {
         margin-right: 25px;
@@ -182,71 +180,37 @@ nav {
 
   .row2 {
     @include flex-rowOne;
-    // width: 1140px;
-    // height: 430px;
-    // margin-left: 175px;
-    // @include flex-rowOne;
-    // position: relative;
+    justify-content: center;
 
     .marcus {
       img {
         width: 720px;
         height: 405px;
       }
-        // margin-left: 35px;
-        // margin-top: 20px;
-        // margin-bottom: 50px;
     }
 
     #ink-banner {
-      // img {
         width: 300px;
         height: 250px;
         margin-top: 100px;
         margin-left: 50px;
-      // }
-    }
+      }
   } // end of row2
 
 
 
-
-
-
-
-
-  .row3 {
+  .photo-row3 {
     margin-top: 25px;
-    width: 1077px;
-    height: 320px;
-    display: flex;
-    display: inline-block;
-
-    .photo1 {
-      @include row3Details;
+    // width: 1077px;
+    // height: 320px;
+    @include flex-rowOne;
+    justify-content: center;
+    img {
+      width: 535px;
+      height: 301px;
     }
-
-    .photo2 {
-      display:block;
-      @include row3Details;
-    }
-
-
-    .box-text {
-      @include text-setting;
-    }
-
-    p {
-      width: 357px;
-    }
-
-  .cf:after {
-    content:"";
-    display: table;
-    clear: both;
   }
-
-  } //end of row3
+ //end of row3
 
   .slides-row {
     @include slide;

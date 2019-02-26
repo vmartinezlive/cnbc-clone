@@ -140,7 +140,8 @@ section {
 
 .row2 {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  justify-content: center; }
   .row2 .marcus img {
     width: 720px;
     height: 405px; }
@@ -150,53 +151,14 @@ section {
     margin-top: 100px;
     margin-left: 50px; }
 
-.row3 {
+.photo-row3 {
   margin-top: 25px;
-  width: 1077px;
-  height: 320px;
   display: flex;
-  display: inline-block; }
-  .row3 .photo1 img {
-    width: 523px;
-    height: 319px;
-    margin-top: 25px; }
-  .row3 .photo2 {
-    display: block; }
-    .row3 .photo2 img {
-      width: 523px;
-      height: 319px;
-      margin-top: 25px; }
-  .row3 .box-text {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    text-align: left;
-    background-color: rgba(0, 0, 0, 0.7);
-    background-position: bottom;
-    margin: 0;
-    height: 25%;
-    position: relative;
-    float: left;
-    left: 210px;
-    bottom: 83px;
-    color: #bbb;
-    font-family: "Roboto", sans-serif;
-    padding: 0px 60px; }
-    .row3 .box-text img {
-      width: 70px;
-      height: 70px;
-      margin-left: -35px;
-      margin-top: 7px; }
-    .row3 .box-text p {
-      font-size: 20px;
-      margin-top: 13px;
-      margin-left: 10px; }
-  .row3 p {
-    width: 357px; }
-  .row3 .cf:after {
-    content: "";
-    display: table;
-    clear: both; }
+  flex-direction: row;
+  justify-content: center; }
+  .photo-row3 img {
+    width: 535px;
+    height: 301px; }
 
 .slides-row {
   width: 1100px; }
