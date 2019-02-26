@@ -181,6 +181,7 @@ nav {
   .row2 {
     @include flex-rowOne;
     justify-content: center;
+    margin-top: 20px;
 
     .marcus {
       img {
@@ -200,7 +201,7 @@ nav {
 
 
   .photo-row3 {
-    margin-top: 25px;
+    margin-top: 50px;
     // width: 1077px;
     // height: 320px;
     @include flex-rowOne;
