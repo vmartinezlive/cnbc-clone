@@ -180,41 +180,34 @@ nav {
     }
   } //end of section
 
-.profit-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   .row2 {
-    width: 1140px;
-    height: 430px;
-    // margin-left: 175px;
     @include flex-rowOne;
+    // width: 1140px;
+    // height: 430px;
+    // margin-left: 175px;
+    // @include flex-rowOne;
+    // position: relative;
 
-
-    .marcusPhoto{
+    .marcus {
       img {
         width: 720px;
         height: 405px;
-        margin-left: 35px;
-        margin-top: 20px;
-        margin-bottom: 50px;
       }
+        // margin-left: 35px;
+        // margin-top: 20px;
+        // margin-bottom: 50px;
     }
 
-    .text-box {
-      @include text-box;
-    }
-
-    .ink-banner {
-      img {
+    #ink-banner {
+      // img {
         width: 300px;
         height: 250px;
         margin-top: 100px;
         margin-left: 50px;
-      }
+      // }
     }
   } // end of row2
-}
+
 
 
 
