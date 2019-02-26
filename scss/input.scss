@@ -1,5 +1,6 @@
 @import 'mixins';
 @import 'media';
+
 //variable
 $blue: #005594;
 $gblue: #326aa0;
@@ -57,12 +58,10 @@ img {
 }
 
 header {
-  // margin-top: 10px;
   padding-top: 10px;
   height: 40px;
   background-color: $blue;
   @include alinks;
-
 }
 
 .right-header {
@@ -79,8 +78,8 @@ header {
       font-size: 12px;
       @include hover;
     }
-
   }
+
   .make-it {
     // margin-top: 5px;
     text-align: right;
@@ -97,10 +96,9 @@ header {
     border-left: 1px solid white;
     height: 14px;
     margin-left: 10px;
-
     margin-top: 4px;
-
   }
+
   img {
     margin-left: 5px;
     margin-bottom: -5px;
@@ -150,12 +148,10 @@ nav {
   .banner {
     display: flex;
     justify-content: center;
-    // margin-left: 400px;
-    // margin-top: 25px;
+
     img {
       width: 730px;
       height: 90px;
-
     }
   }// end of banner
 
@@ -206,12 +202,8 @@ nav {
       }
   } // end of row2
 
-
-
   .photo-row3 {
     margin-top: 50px;
-    // width: 1077px;
-    // height: 320px;
     @include flex-rowOne;
     justify-content: center;
     img {
@@ -223,36 +215,29 @@ nav {
 
   .full-epispodes {
     max-width: 1140px;
-    // display: flex;
-    // justify-content: center;
+    }
 
+  .rowOne-header {
+    max-width: 1140px;
+
+    h2 {
+      display: flex;
+      justify-content: flex-start;
+      text-transform: uppercase;
+      font-family: $roboto;
+      color: gray;
+      margin-top: 25px;
+      margin-left: 85px;
+    }
   }
-.rowOne-header {
-  max-width: 1140px;
-  // float: left;
-  //
-  h2 {
-    display: flex;
-    justify-content: flex-start;
-    text-transform: uppercase;
-    font-family: $roboto;
-    color: gray;
-    margin-top: 25px;
-    margin-left: 85px;
-  }
-}
 
   .photos {
-    // @include slide;
     @include flex-rowOne;
     flex-direction: row;
     justify-content: center;
-    // justify-content: space-between;
-    // margin-left: 20px;
 
     img {
       width: 240px;
       height: 135px;
-      // margin-top: 10px;
     }
   }

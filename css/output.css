@@ -1,3 +1,46 @@
+@media screen and (max-width: 600px) {
+  .top-header {
+    position: absolute; }
+    .top-header h3 {
+      display: none; }
+    .top-header p {
+      display: none; } }
+@media screen and (max-width: 600px) {
+  .photo-header {
+    display: none; } }
+@media screen and (max-width: 768px) {
+  .right-header .make-usa {
+    display: none; }
+  .right-header #usa {
+    display: none; }
+  .right-header button {
+    display: none; }
+  .right-header .vl {
+    display: none; }
+
+  nav img {
+    display: none; }
+  nav .menu {
+    float: none;
+    width: 100%; } }
+@media screen and (max-width: 600px) {
+  .banner img {
+    display: none; } }
+@media screen and (max-width: 600px) {
+  section img {
+    display: none; } }
+@media screen and (max-width: 600px) {
+  .row2 .ink-banner {
+    display: none; } }
+@media screen and (max-width: 600px) {
+  .marcus {
+    max-width: 599px;
+    height: auto; } }
+@media screen and (max-width: 600px) {
+  .photo-row3 {
+    float: none;
+    width: 100%;
+    height: auto; } }
 * {
   border: 1px solid red; }
 
