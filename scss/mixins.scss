@@ -91,15 +91,15 @@
 }//
 
 @mixin slide {
-  width: 100%;
+  // width: 100%;
 
-  h2 {
-    text-transform: uppercase;
-    font-family: $roboto;
-    color: gray;
-    margin-top: 25px;
-    margin-left: 85px;
-  }
+  // h2 {
+  //   text-transform: uppercase;
+  //   font-family: $roboto;
+  //   color: gray;
+  //   margin-top: 25px;
+  //   margin-left: 85px;
+  // }
 
   .photos {
     @include flex-rowOne;
@@ -107,11 +107,11 @@
     justify-content: center;
     // justify-content: space-between;
     // margin-left: 20px;
+    img {
+      width: 240px;
+      height: 135px;
+      // margin-top: 10px;
+    }
   }
 
-  img {
-    width: 240px;
-    height: 135px;
-    // margin-top: 10px;
-  }
 } // end of slide
