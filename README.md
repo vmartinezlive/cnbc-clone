@@ -16,7 +16,7 @@ A project replicating an existing organization website.  The cloned website will
 
 ##Screenshot of cnbc the profit website and image of clone site.
 ![clone](img\clone-version.jpg)
-![profit-site](img\cnbc-site.jpg)
+![profit-site](img\clone-version.jpg)
 
 ## Setup/Installation Requirements
 
