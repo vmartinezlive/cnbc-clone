@@ -31,64 +31,115 @@
   }
 
   nav {
+    display:flex;
+    flex-wrap: wrap;
+    //added *****
     img {
       display: none;
     }
-    .menu {
-      float: none;
-      width: 100%;
-    }
+
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
   }
 }
 
 @media screen and (max-width: 600px) {
+  .menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    // text-align: right;
+    // font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    display: inline-table;
+  // float:right;
+    // display: flex;
+    // flex-direction: column;
+    // flex-wrap: wrap;
+    // font-size: 25px;
+  }
+}
+
+@media screen  and (max-width: 600px) {
+  nav {
+    // display: inline-table;
+    display: flex;
+    // flex-basis: 100%;
+    flex-direction: column;
+    color: red;
+    flex-wrap: wrap;
+    font-size: 25px;
+  }
+}
+
+
+
+@media screen and (max-width: 800px) {
   .banner {
-    img {
+    #chase {
       display: none;
       }
     }
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and  (max-width: 900px) {
     section {
-      img {
+      #profit-banner {
         display: none;
         }
       }
     }
 
-@media screen and (max-width: 600px) {
-  .row2 {
-    .ink-banner {
+@media screen and (max-width: 850px) {
+    #ink-banner {
       display: none;
       }
+  }
+
+  @media screen and (max-width: 400px) {
+    #marcus-side {
+    display: none;
+      }
+    }//I can't make it happen
+
+
+@media screen and (max-width: 849px) {
+    #marcus-side {
+      align-self: center;
     }
   }
 
-@media screen and (max-width: 600px) {
-  .marcus{
-     max-width: 599px;
-     height: auto;
+
+
+  @media screen and (max-width: 600px) {
+    .photo-row3 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      }
+    }
+
+
+  @media screen and (max-width: 849px) {
+    .photos {
+      display:inline-flex;
+      flex-wrap: wrap;
     }
   }
 
   @media screen and (max-width: 600px) {
-    .photo-row3 {
-      float: none;
-       width: 100%;
-       height: auto;
-      }
+    .photos {
+      display: flex;
+      flex-wrap: wrap;
     }
-//
-//   @media screen and (max-width: 768px) {
-//     .row2 {
-//        float: left;
-//        width: 50%;
-//       }
-//     }
-//
-//     @media screen and (max-width: 768px) {
-//       section {
-//          display: none;
-//         }
-//       }
+  }

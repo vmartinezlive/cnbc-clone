@@ -6,11 +6,12 @@
 
 ## Description
 
-This is a project to showcase a cloning of an existing organization website.  The cloned website will demonstrates the skills on the following:
+This is a project to showcase the cloning of an existing organization website.  The cloned website will demonstrate the skills on the following:
+
 
 * CSS rules are created and organized using "outside in" best practices.
-* Project exhibits understanding of box model best practices.
-* Flexbox is used to efficiently present groupings of similar or related elements.
+* Project exhibits an understanding of box model best practices.
+* Flexbox is used to present groupings of similar or related elements efficiently.
 * Media queries are used to change rules based on screen size.
 * Styles are written in Sass and well-refactored using Sass functionality.
 

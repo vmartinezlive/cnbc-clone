@@ -8,9 +8,9 @@ $gold: #d1bb7e;
 $roboto: 'Roboto', sans-serif;
 $anton: 'Anton', sans-serif;
 
-* {
-  border: 1px solid red;
-}
+// * {
+//   border: 1px solid red;
+// }
 html {
   box-sizing: border-box;
 }
@@ -150,6 +150,7 @@ nav {
     justify-content: center;
 
     img {
+      margin-top: 10px;
       width: 730px;
       height: 90px;
     }
@@ -227,7 +228,8 @@ nav {
       font-family: $roboto;
       color: gray;
       margin-top: 25px;
-      margin-left: 85px;
+      margin-left: 85px;flex-wrap: wrap;
+      //added *****
     }
   }
 
