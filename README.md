@@ -6,8 +6,7 @@
 
 ## Description
 
-This is a project to showcase the cloning of an existing organization website.  The cloned website will demonstrate the skills on the following:
-
+A project replicating an existing organization website.  The cloned website will demonstrate the skills on the following:
 
 * CSS rules are created and organized using "outside in" best practices.
 * Project exhibits an understanding of box model best practices.
@@ -16,12 +15,12 @@ This is a project to showcase the cloning of an existing organization website.  
 * Styles are written in Sass and well-refactored using Sass functionality.
 
 ##Screenshot of cnbc the profit website and image of clone site.
-![](img\clone-project.PNG)
-![](img\profitwebsite.PNG)
+![clone](img\clone-version.jpg)
+![profit-site](img\cnbc-site.jpg)
 
 ## Setup/Installation Requirements
 
-* download github link:
+* download github link:![github](https://github.com/vmartinezlive/cnbc-clone.git)
 
 ## Known Bugs
 
@@ -35,7 +34,9 @@ For issues or concerns, you may contact me at vmartinez72@live.com
 
 * HTML
 * css
-* scss
+* sass
+* jquery
+
 
 ### License
 
